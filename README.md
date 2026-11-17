@@ -59,7 +59,7 @@ Also: Pandas, NumPy, Jupyter, data visualisation, REST API design, Git.
 
 ### Currently
 
-- Building an AI project in the health domain: a question-answering assistant on public nutrition guidelines.
+- Next: an AI project in the health domain, a question-answering assistant on public nutrition guidelines.
 - Looking for a **professional internship** in data science or AI, in Paris or remote.
 
 ### Contact
