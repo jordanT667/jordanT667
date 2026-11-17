@@ -15,7 +15,7 @@ I hold an MSc in Data Science & AI and I am based in Paris. **I am currently loo
 
 ### Featured projects
 
-**KIWIA** · *personal project, built solo · showcase repository coming soon*
+**[KIWIA](https://github.com/jordanT667/kiwia)** · *personal project, built solo*
 A daily nutrition coach organised by organ. A tested rules engine that turns nutrition data into personalised verdicts and programmes, served by a FastAPI backend with an OpenAPI contract, a PostgreSQL schema with constraint tests, and a Flutter mobile app.
 `Python` `FastAPI` `PostgreSQL` `Flutter` `Docker`
 
