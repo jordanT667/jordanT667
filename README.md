@@ -15,6 +15,10 @@ I hold an MSc in Data Science & AI and I am based in Paris. **I am currently loo
 
 ### Featured projects
 
+**[Nutri-Score without a nutrition table](https://github.com/jordanT667/nutriscore-ml)** · *data science project*
+Estimates the Nutri-Score of food products from their ingredients and categories when the nutrition table is missing. 265,691 Open Food Facts products, a brand-grouped split, text features and LightGBM: macro-F1 0.72 on unseen brands (0.61 for the category baseline), right within one grade for 94.5% of products, with leakage tests and bootstrap intervals.
+`Python` `scikit-learn` `LightGBM` `NLP` `pandas`
+
 **[KIWIA](https://github.com/jordanT667/kiwia)** · *personal project, built solo*
 A daily nutrition coach organised by organ. A tested rules engine that turns nutrition data into personalised verdicts and programmes, served by a FastAPI backend with an OpenAPI contract, a PostgreSQL schema with constraint tests, and a Flutter mobile app.
 `Python` `FastAPI` `PostgreSQL` `Flutter` `Docker`
@@ -55,7 +59,7 @@ Also: Pandas, NumPy, Jupyter, data visualisation, REST API design, Git.
 
 ### Currently
 
-- Building a data science project and an AI project, both in the health domain. They will appear here when they are ready.
+- Building an AI project in the health domain: a question-answering assistant on public nutrition guidelines.
 - Looking for a **professional internship** in data science or AI, in Paris or remote.
 
 ### Contact
@@ -69,6 +73,6 @@ Also: Pandas, NumPy, Jupyter, data visualisation, REST API design, Git.
 Je conçois des produits data et IA dans la santé, de bout en bout : des données et du modèle jusqu'à l'API et à l'application mobile utilisée au quotidien.
 Diplômé d'un master Data Science & IA, je vis à Paris et **je recherche un stage professionnel** en data science ou en IA.
 
-Projets à découvrir ci-dessus : **KIWIA** (coach nutritionnel, FastAPI, PostgreSQL, Flutter), une **plateforme d'inscription à un concours** (Angular) et une **plateforme de formation IA et de services B2B** (Django).
+Projets à découvrir ci-dessus : une **estimation du Nutri-Score sans tableau nutritionnel** (machine learning sur Open Food Facts), **KIWIA** (coach nutritionnel, FastAPI, PostgreSQL, Flutter), une **plateforme d'inscription à un concours** (Angular) et une **plateforme de formation IA et de services B2B** (Django).
 
 </details>
