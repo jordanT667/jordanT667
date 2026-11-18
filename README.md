@@ -19,6 +19,10 @@ I hold an MSc in Data Science & AI and I am based in Paris. **I am currently loo
 Estimates the Nutri-Score of food products from their ingredients and categories when the nutrition table is missing. 265,691 Open Food Facts products, a brand-grouped split, text features and LightGBM: macro-F1 0.72 on unseen brands (0.61 for the category baseline), right within one grade for 94.5% of products, with leakage tests and bootstrap intervals.
 `Python` `scikit-learn` `LightGBM` `NLP` `pandas`
 
+**[Nutrition guidelines assistant](https://github.com/jordanT667/nutrition-rag)** · *AI project*
+A question-answering assistant on the official French dietary guidelines that cites the page behind every answer. BM25 retrieval over the 62-page source (the right page is in the top 5 for 95% of reference questions), Claude answers with native citations, and an evaluation harness that compares retrieval, whole-document context and no document on 50 questions, including 10 the guidelines do not answer.
+`Python` `RAG` `LLM` `Claude API` `BM25`
+
 **[KIWIA](https://github.com/jordanT667/kiwia)** · *personal project, built solo*
 A daily nutrition coach organised by organ. A tested rules engine that turns nutrition data into personalised verdicts and programmes, served by a FastAPI backend with an OpenAPI contract, a PostgreSQL schema with constraint tests, and a Flutter mobile app.
 `Python` `FastAPI` `PostgreSQL` `Flutter` `Docker`
@@ -59,7 +63,7 @@ Also: Pandas, NumPy, Jupyter, data visualisation, REST API design, Git.
 
 ### Currently
 
-- Next: an AI project in the health domain, a question-answering assistant on public nutrition guidelines.
+- Running the answer-quality evaluation of the nutrition guidelines assistant.
 - Looking for a **professional internship** in data science or AI, in Paris or remote.
 
 ### Contact
@@ -73,6 +77,6 @@ Also: Pandas, NumPy, Jupyter, data visualisation, REST API design, Git.
 Je conçois des produits data et IA dans la santé, de bout en bout : des données et du modèle jusqu'à l'API et à l'application mobile utilisée au quotidien.
 Diplômé d'un master Data Science & IA, je vis à Paris et **je recherche un stage professionnel** en data science ou en IA.
 
-Projets à découvrir ci-dessus : une **estimation du Nutri-Score sans tableau nutritionnel** (machine learning sur Open Food Facts), **KIWIA** (coach nutritionnel, FastAPI, PostgreSQL, Flutter), une **plateforme d'inscription à un concours** (Angular) et une **plateforme de formation IA et de services B2B** (Django).
+Projets à découvrir ci-dessus : une **estimation du Nutri-Score sans tableau nutritionnel** (machine learning sur Open Food Facts), un **assistant de questions-réponses sur les recommandations nutritionnelles officielles** (RAG avec citations), **KIWIA** (coach nutritionnel, FastAPI, PostgreSQL, Flutter), une **plateforme d'inscription à un concours** (Angular) et une **plateforme de formation IA et de services B2B** (Django).
 
 </details>
