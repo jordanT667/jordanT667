@@ -49,6 +49,16 @@ A Django platform that combines an online course system with PDF certificates, a
 
 Also: Pandas, NumPy, Jupyter, data visualisation, REST API design, Git.
 
+### GitHub activity
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jordanT667&theme=tokyonight" alt="GitHub contributions over the last year" width="100%">
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jordanT667&theme=tokyonight&exclude=HTML,CSS" alt="Top languages by repository" width="49%">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jordanT667&theme=tokyonight&exclude=HTML,CSS" alt="Top languages by commit" width="49%">
+</p>
+
 ### Experience
 
 - **Junior Data Scientist** · Infinity Tech · 4 months
