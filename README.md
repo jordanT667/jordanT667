@@ -1,5 +1,12 @@
-<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
   <img src="assets/banner.svg" alt="Namekong Jordan — Data Scientist & AI Engineer" width="100%">
+</picture>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Open_to-professional_internship-22D3EE?style=for-the-badge" alt="Open to a professional internship">
+  <img src="https://img.shields.io/badge/Paris-France-3B82F6?style=for-the-badge" alt="Based in Paris, France">
+  <a href="mailto:namekongj0@gmail.com"><img src="https://img.shields.io/badge/Email-namekongj0%40gmail.com-0F172A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 I build data and AI products in health tech, end to end: from the data and the model to the API and the mobile app that people actually use.
@@ -15,27 +22,42 @@ I hold an MSc in Data Science & AI and I am based in Paris. **I am currently loo
 
 ### Featured projects
 
-**[Nutri-Score without a nutrition table](https://github.com/jordanT667/nutriscore-ml)** · *data science project*
-Estimates the Nutri-Score of food products from their ingredients and categories when the nutrition table is missing. 265,691 Open Food Facts products, a brand-grouped split, text features and LightGBM: macro-F1 0.72 on unseen brands (0.61 for the category baseline), right within one grade for 94.5% of products, with leakage tests and bootstrap intervals.
-`Python` `scikit-learn` `LightGBM` `NLP` `pandas`
-
-**[Nutrition guidelines assistant](https://github.com/jordanT667/nutrition-rag)** · *AI project*
-A question-answering assistant on the official French dietary guidelines that cites the page behind every answer. BM25 retrieval over the 62-page source (the right page is in the top 5 for 95% of reference questions), Claude answers with native citations, and an evaluation harness that compares retrieval, whole-document context and no document on 50 questions, including 10 the guidelines do not answer.
-`Python` `RAG` `LLM` `Claude API` `BM25`
-
-**[KIWIA](https://github.com/jordanT667/kiwia)** · *personal project, built solo*
-A daily nutrition coach organised by organ. A tested rules engine that turns nutrition data into personalised verdicts and programmes, served by a FastAPI backend with an OpenAPI contract, a PostgreSQL schema with constraint tests, and a Flutter mobile app.
-`Python` `FastAPI` `PostgreSQL` `Flutter` `Docker`
-
-**[Entrance exam registration platform](https://github.com/jordanT667/concours)** · *personal project*
-An Angular platform for applying to an engineering school entrance exam: a step-by-step application wizard, application tracking, and an admin back office with about thirty management sections. JWT authentication with token refresh, server-side rendering, and automated deployment to a VPS with GitHub Actions.
-`Angular` `TypeScript` `SSR` `GitHub Actions`
-
-**[AI training & B2B platform](https://github.com/jordanT667/ProjetST)** · *personal project*
-A Django platform that combines an online course system with PDF certificates, a B2B space for business clients, an admin dashboard and a REST API.
-`Django` `Django REST Framework` `HTMX` `Tailwind CSS`
-
-**Vitallink** · *private project, medical domain*
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jordanT667/nutriscore-ml"><img src="assets/projects/nutriscore-ml.png" alt="Nutri-Score without a nutrition table" width="100%"></a>
+<b><a href="https://github.com/jordanT667/nutriscore-ml">Nutri-Score without a nutrition table</a></b> · <i>data science</i><br>
+Estimates the grade of 265,691 Open Food Facts products from ingredients and categories. LightGBM, brand-grouped split: macro-F1 0.72 on unseen brands (0.61 for the category baseline), 94.5% within one grade.
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jordanT667/nutrition-rag"><img src="assets/projects/nutrition-rag.png" alt="Nutrition guidelines assistant" width="100%"></a>
+<b><a href="https://github.com/jordanT667/nutrition-rag">Nutrition guidelines assistant</a></b> · <i>AI</i><br>
+Answers questions on the official French dietary guidelines and cites the page. BM25 finds the right page in the top 5 for 95% of reference questions; evaluation harness on 50 questions, 10 of them unanswerable.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jordanT667/kiwia"><img src="assets/projects/kiwia.png" alt="KIWIA" width="100%"></a>
+<b><a href="https://github.com/jordanT667/kiwia">KIWIA</a></b> · <i>personal project, built solo</i><br>
+A daily nutrition coach organised by organ: FastAPI backend with a tested rules engine (511 tests), PostgreSQL, and a Flutter app running the same rules in Dart. Showcase repository, source private.
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/jordanT667/concours"><img src="assets/projects/concours.png" alt="Entrance exam registration platform" width="100%"></a>
+<b><a href="https://github.com/jordanT667/concours">Entrance exam registration platform</a></b> · <i>personal project</i><br>
+Angular SSR platform for applying to an engineering school entrance exam, with an admin back office and automated deployment to a VPS with GitHub Actions.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/jordanT667/ProjetST"><img src="assets/projects/ProjetST.png" alt="AI training & B2B platform" width="100%"></a>
+<b><a href="https://github.com/jordanT667/ProjetST">AI training & B2B platform</a></b> · <i>personal project</i><br>
+Django platform combining online courses with PDF certificates, a B2B client space, an admin dashboard and a REST API.
+</td>
+<td width="50%" valign="top">
+<b>Vitallink</b> · <i>private project, medical domain</i>
+</td>
+</tr>
+</table>
 
 ### Tech stack
 

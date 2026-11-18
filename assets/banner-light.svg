@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">Namekong Jordan</title>
+  <desc id="d">Data Scientist &amp; AI Engineer — building health-tech products end to end</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#CBD5E1" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .name { font: 700 56px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #0F172A; letter-spacing: -0.5px; }
+      .role { font: 600 24px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #0369A1; }
+      .tag  { font: 400 17px 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; fill: #475569; }
+      .edge { stroke: #3B82F6; stroke-opacity: 0.45; stroke-width: 1.5; }
+      .node { fill: #0891B2; }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .d1 { animation-delay: 0.8s; } .d2 { animation-delay: 1.6s; } .d3 { animation-delay: 2.4s; }
+      @keyframes pulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: 0.8; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1200" height="300" rx="16" fill="url(#glow)"/>
+
+  <!-- network motif: data → model → product -->
+  <g>
+    <line class="edge" x1="850" y1="90"  x2="960" y2="150"/>
+    <line class="edge" x1="850" y1="210" x2="960" y2="150"/>
+    <line class="edge" x1="850" y1="90"  x2="850" y2="210"/>
+    <line class="edge" x1="960" y1="150" x2="1070" y2="95"/>
+    <line class="edge" x1="960" y1="150" x2="1070" y2="205"/>
+    <line class="edge" x1="1070" y1="95" x2="1070" y2="205"/>
+    <circle class="node pulse"    cx="850"  cy="90"  r="7"/>
+    <circle class="node pulse d2" cx="850"  cy="210" r="7"/>
+    <circle class="node pulse d1" cx="960"  cy="150" r="11"/>
+    <circle class="node pulse d3" cx="1070" cy="95"  r="7"/>
+    <circle class="node pulse d1" cx="1070" cy="205" r="7"/>
+  </g>
+
+  <rect x="72" y="86" width="56" height="4" rx="2" fill="url(#accent)"/>
+  <text class="name" x="72" y="150">Namekong Jordan</text>
+  <text class="role" x="72" y="192">Data Scientist &amp; AI Engineer</text>
+  <text class="tag"  x="72" y="228">building health-tech products end to end · Paris</text>
+</svg>
