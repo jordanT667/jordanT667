@@ -72,6 +72,12 @@ Django platform combining online courses with PDF certificates, a B2B client spa
 
 Also: Pandas, NumPy, Jupyter, data visualisation, REST API design, Git.
 
+**Currently learning:** Rust and Java.
+
+<p>
+  <img src="https://skillicons.dev/icons?i=rust,java&theme=dark" height="36" alt="Rust, Java (learning)">
+</p>
+
 ### GitHub activity
 
 <p align="center">
