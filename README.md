@@ -91,10 +91,10 @@ Also: Pandas, NumPy, Jupyter, data visualisation, REST API design, Git.
 
 ### Experience
 
-- **Junior Data Scientist** · Infinity Tech · Internship · Jul 2024 – Oct 2025
-  Data preparation and analysis, dashboards and reporting for business teams.
-- **Junior Developer & Designer** · Gestmarter · Internship · Jul 2023 – Sep 2024
-  Restaurant and travel apps, websites and platforms for organisations, from UI design to implementation.
+- **Junior Data Scientist** · Infinity Tech, Douala · Two internships · Jul – Sep 2024 and Jul – Aug 2023
+  Data preparation and analysis with Python, Excel and SPSS; dashboards and reporting for business teams.
+- **Junior Developer & Designer** · Gestmarter, Douala · Internship · Jul 2023 – Sep 2024
+  More than four products delivered, from UI design to implementation: restaurant and travel apps, websites and platforms for organisations.
 
 ### Education
 
