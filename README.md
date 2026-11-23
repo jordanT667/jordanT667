@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/Open_to-professional_internship-22D3EE?style=for-the-badge" alt="Open to a professional internship">
   <img src="https://img.shields.io/badge/Paris-France-3B82F6?style=for-the-badge" alt="Based in Paris, France">
   <a href="https://jordant667.github.io"><img src="https://img.shields.io/badge/Portfolio-jordant667.github.io-22D3EE?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio site"></a>
+  <a href="https://www.linkedin.com/in/jordan-namekong"><img src="https://img.shields.io/badge/LinkedIn-jordan--namekong-0A66C2?style=for-the-badge" alt="LinkedIn"></a>
   <a href="mailto:namekongj0@gmail.com"><img src="https://img.shields.io/badge/Email-namekongj0%40gmail.com-0F172A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
@@ -107,7 +108,7 @@ Also: Pandas, NumPy, Jupyter, data visualisation, REST API design, Git.
 
 ### Contact
 
-📫 [namekongj0@gmail.com](mailto:namekongj0@gmail.com) · 🌐 [jordant667.github.io](https://jordant667.github.io)
+📫 [namekongj0@gmail.com](mailto:namekongj0@gmail.com) · 🌐 [jordant667.github.io](https://jordant667.github.io) · 💼 [linkedin.com/in/jordan-namekong](https://www.linkedin.com/in/jordan-namekong)
 
 <details>
 <summary><b>🇫🇷 En français</b></summary>
